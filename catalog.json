@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-10",
+  "star_threshold_exclusive": 500,
+  "repositories": [
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "stars": 14238,
+      "branch": "main",
+      "commit": "9eb7739a0fca4c6990fe966cb8b87b1930f7193a",
+      "tree": "af0dd6bd7814c6c84e64cfc15b0be193cc4b12cd",
+      "files": 2521,
+      "bytes": 107950312,
+      "local_path": "examples/lemomo-ai__lemo-opuscar",
+      "source_url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "stars_source_url": "https://api.github.com/repos/lemomo-ai/lemo-opuscar",
+      "type": "代码动画风格库",
+      "summary": "66种风格及浏览器动画源码，含SVG、Canvas、WebGL、Three.js。",
+      "model_evidence": {
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/9eb7739a0fca4c6990fe966cb8b87b1930f7193a/README.md",
+        "summary": "README明确每个影片由作者与Claude Opus 5.5共同制作，帧画面、音符和剪辑均由代码实现。",
+        "local_path": "examples/lemomo-ai__lemo-opuscar/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "代码使用MIT；示例影片及静帧使用CC BY 4.0，署名LemoLab并链接上游。第三方素材保留各自CREDITS；README列出的6条配音不在CC BY 4.0授权内。",
+        "files": [
+          "LICENSE",
+          "README.md"
+        ],
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/9eb7739a0fca4c6990fe966cb8b87b1930f7193a/LICENSE"
+      },
+      "entrypoints": [
+        "styles/watercolor/demo/index.html",
+        "styleboard/index.html",
+        "styleboard/opuscar98.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "python3 -m http.server 8000"
+          ],
+          "open": "http://localhost:8000/styles/watercolor/demo/index.html"
+        }
+      ],
+      "demo_url": "https://lemomo-ai.github.io/lemo-opuscar/",
+      "readme_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/9eb7739a0fca4c6990fe966cb8b87b1930f7193a/README.md",
+      "notes": "画廊影片部分引用上游Releases；本地源码在styles/*/demo/。"
+    },
+    {
+      "repo": "mexicat/pdoom-video",
+      "stars": 3856,
+      "branch": "main",
+      "commit": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+      "tree": "1c2ed7634a5a6406b8595a08e3328b05a96fa202",
+      "files": 154,
+      "bytes": 22384866,
+      "local_path": "examples/mexicat__pdoom-video",
+      "source_url": "https://github.com/mexicat/pdoom-video",
+      "stars_source_url": "https://api.github.com/repos/mexicat/pdoom-video",
+      "type": "Three.js音乐动画",
+      "summary": "带歌词同步排版的音乐动画，TypeScript、Three.js与Bun/Vite。",
+      "model_evidence": {
+        "url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/README.md",
+        "summary": "README说明概念、歌词对齐、音频分析、渲染器、各场景和渲染均与Claude Opus 5.5协作完成。",
+        "local_path": "examples/mexicat__pdoom-video/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "MIT适用于代码；字体保留OFL或公有领域说明。audio/、lyrics/及data/lyrics.json中的歌曲和歌词明确不在MIT许可内，归原作者所有。",
+        "files": [
+          "LICENSE",
+          "README.md"
+        ],
+        "url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/LICENSE"
+      },
+      "entrypoints": [
+        "app/index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": "app",
+          "commands": [
+            "bun install",
+            "bunx vite"
+          ],
+          "open": "http://localhost:5173"
+        }
+      ],
+      "demo_url": null,
+      "readme_url": "https://github.com/mexicat/pdoom-video/blob/fa164b74fd0b26a99375715b619c55b4a0fb3d05/README.md"
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "stars": 3376,
+      "branch": "main",
+      "commit": "269f6ed788cf60aaf9c276b110c548d6e7d353e1",
+      "tree": "89ea9652228a324b70f1e818576c67b676729477",
+      "files": 386,
+      "bytes": 599838914,
+      "local_path": "examples/Vincentwei1021__mg-styles-15",
+      "source_url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "stars_source_url": "https://api.github.com/repos/Vincentwei1021/mg-styles-15",
+      "type": "动态图形与展示网页",
+      "summary": "15种10秒动态图形，附HTML/Canvas/WebGL源码、提示词和成片。",
+      "model_evidence": {
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md",
+        "summary": "README明确15支短片的画面、动画、音乐与音效均由Claude Opus 5.5写代码制作。",
+        "local_path": "examples/Vincentwei1021__mg-styles-15/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "项目代码、提示词、文档和影片采用MIT；第三方素材保留CC0/公有领域、BSD-3-Clause及OFL说明。",
+        "files": [
+          "LICENSE",
+          "site/vendor/highlight.LICENSE",
+          "assets/fonts/README.md"
+        ],
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/LICENSE"
+      },
+      "entrypoints": [
+        "index.html",
+        "harness/preview.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "python3 -m http.server 8000"
+          ],
+          "open": "http://localhost:8000/harness/preview.html?demo=01-flat-vector"
+        }
+      ],
+      "demo_url": "https://vincentwei1021.github.io/mg-styles-15/",
+      "readme_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/269f6ed788cf60aaf9c276b110c548d6e7d353e1/README.md",
+      "notes": "离线生成配乐与影片需按上游README安装Python依赖；3D Render示例额外需要Blender。"
+    },
+    {
+      "repo": "JohnHeibel/PDoomVideo",
+      "stars": 2895,
+      "branch": "main",
+      "commit": "fa546a38092e75f2b079e6a86d6abc54dd525d17",
+      "tree": "275cc7ac1e3fb36c6f9603c44b484cc8ce6a9457",
+      "files": 26,
+      "bytes": 4161352,
+      "local_path": "examples/JohnHeibel__PDoomVideo",
+      "source_url": "https://github.com/JohnHeibel/PDoomVideo",
+      "stars_source_url": "https://api.github.com/repos/JohnHeibel/PDoomVideo",
+      "type": "p5.js音乐动画",
+      "summary": "p5.js与p5.brush手绘音乐动画，含分镜、原始版本和导出脚本。",
+      "model_evidence": {
+        "url": "https://github.com/JohnHeibel/PDoomVideo/blob/fa546a38092e75f2b079e6a86d6abc54dd525d17/README.md",
+        "summary": "README将legacy/第一代及其余第二代明确标为Claude Opus 5.5生成，并说明仓库内容由模型制作。",
+        "local_path": "examples/JohnHeibel__PDoomVideo/README.md"
+      },
+      "license": {
+        "spdx_id": "ISC",
+        "summary": "package.json声明ISC，仓库没有独立LICENSE；README Credits将歌曲、歌词和灵感归于第三方，不能把歌曲和歌词统一标成ISC授权。",
+        "files": [
+          "package.json",
+          "README.md"
+        ],
+        "url": "https://github.com/JohnHeibel/PDoomVideo/blob/fa546a38092e75f2b079e6a86d6abc54dd525d17/package.json"
+      },
+      "entrypoints": [
+        "studio.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "python3 -m http.server 8000"
+          ],
+          "open": "http://localhost:8000/studio.html"
+        }
+      ],
+      "demo_url": "https://youtu.be/8j-hR4fJywU",
+      "readme_url": "https://github.com/JohnHeibel/PDoomVideo/blob/fa546a38092e75f2b079e6a86d6abc54dd525d17/README.md"
+    },
+    {
+      "repo": "JohnHeibel/ClaudeAnimationBase",
+      "stars": 2821,
+      "branch": "main",
+      "commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2",
+      "tree": "a57999f788c4bf6487d5b81ce75a7f369a409ea1",
+      "files": 18,
+      "bytes": 7893469,
+      "local_path": "examples/JohnHeibel__ClaudeAnimationBase",
+      "source_url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+      "stars_source_url": "https://api.github.com/repos/JohnHeibel/ClaudeAnimationBase",
+      "type": "p5.js角色动画",
+      "summary": "11秒角色动画、31种表情、角色视图和可复用基础工程。",
+      "model_evidence": {
+        "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/0ac8bf2b31942376cb6b8c4074715595d512acd2/README.md",
+        "summary": "README首段明确所有测试动画在Claude Code中由Claude Opus 5.5以xhigh推理生成。",
+        "local_path": "examples/JohnHeibel__ClaudeAnimationBase/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "保留根目录MIT许可证及原作者署名。",
+        "files": [
+          "LICENSE"
+        ],
+        "url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/0ac8bf2b31942376cb6b8c4074715595d512acd2/LICENSE"
+      },
+      "entrypoints": [
+        "studio.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "python3 -m http.server 8000"
+          ],
+          "open": "http://localhost:8000/studio.html"
+        }
+      ],
+      "demo_url": null,
+      "readme_url": "https://github.com/JohnHeibel/ClaudeAnimationBase/blob/0ac8bf2b31942376cb6b8c4074715595d512acd2/README.md"
+    },
+    {
+      "repo": "feichao93/battle-city",
+      "stars": 1881,
+      "branch": "master",
+      "commit": "86c41c8c3c49cd27255bcf63167091d1061801fa",
+      "tree": "cd65483b2320e91abfb243061b5f040f59858062",
+      "files": 253,
+      "bytes": 8166400,
+      "local_path": "examples/feichao93__battle-city",
+      "source_url": "https://github.com/feichao93/battle-city",
+      "stars_source_url": "https://api.github.com/repos/feichao93/battle-city",
+      "type": "React/PixiJS浏览器游戏",
+      "summary": "坦克大战：单人、双人、局域网、关卡编辑及AI托管。",
+      "model_evidence": {
+        "url": "https://github.com/feichao93/battle-city/blob/86c41c8c3c49cd27255bcf63167091d1061801fa/README.md",
+        "summary": "README的0.4.0里程碑（2026-09-28）明确写明在Claude Opus 5.5帮助下全面重写；模型归属对应这一重写版本。",
+        "local_path": "examples/feichao93__battle-city/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "保留根目录MIT许可证及原作者署名。",
+        "files": [
+          "LICENSE"
+        ],
+        "url": "https://github.com/feichao93/battle-city/blob/86c41c8c3c49cd27255bcf63167091d1061801fa/LICENSE"
+      },
+      "entrypoints": [
+        "index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "pnpm install",
+            "pnpm dev"
+          ]
+        },
+        {
+          "cwd": ".",
+          "commands": [
+            "pnpm build"
+          ],
+          "output": "dist/"
+        }
+      ],
+      "demo_url": "https://battle-city.js.org",
+      "readme_url": "https://github.com/feichao93/battle-city/blob/86c41c8c3c49cd27255bcf63167091d1061801fa/README.md"
+    },
+    {
+      "repo": "dgreenheck/tidewater",
+      "stars": 1447,
+      "branch": "main",
+      "commit": "4811ba48d795197de5621985f404e765c0b7c0ef",
+      "tree": "dd8c2b8b21bed8b5a4907c0864b101d3814ec35b",
+      "files": 430,
+      "bytes": 58821878,
+      "local_path": "examples/dgreenheck__tidewater",
+      "source_url": "https://github.com/dgreenheck/tidewater",
+      "stars_source_url": "https://api.github.com/repos/dgreenheck/tidewater",
+      "type": "WebGPU海岛钓鱼游戏",
+      "summary": "海面、天空、岛屿与钓鱼玩法，使用自建WebGPU/WGSL渲染器。",
+      "model_evidence": {
+        "url": "https://github.com/dgreenheck/tidewater/commit/4811ba48d795197de5621985f404e765c0b7c0ef",
+        "summary": "仓库描述为Coastal town built with Opus 5.5；所归档HEAD提交包含Claude Opus 5.5共同署名。",
+        "local_path": null
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "代码使用MIT；CREDITS.md记录CC0声音和扫描素材、MIT角色、OFL/Apache字体等独立许可。",
+        "files": [
+          "LICENSE",
+          "CREDITS.md"
+        ],
+        "url": "https://github.com/dgreenheck/tidewater/blob/4811ba48d795197de5621985f404e765c0b7c0ef/LICENSE"
+      },
+      "entrypoints": [
+        "index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "npm run dev"
+          ],
+          "open": "http://127.0.0.1:5189"
+        },
+        {
+          "cwd": ".",
+          "commands": [
+            "npm run build"
+          ],
+          "output": "dist/"
+        }
+      ],
+      "demo_url": "https://dgreenheck.github.io/tidewater/",
+      "readme_url": "https://github.com/dgreenheck/tidewater/blob/4811ba48d795197de5621985f404e765c0b7c0ef/README.md"
+    },
+    {
+      "repo": "riba2534/claude-opus-5-5-demo",
+      "stars": 1255,
+      "branch": "main",
+      "commit": "54adc1fb64155f9dd7c1c90ecae7b8185ac540b8",
+      "tree": "8f6b8696ecfe6dbb066f1765cb77fca73b7a41a0",
+      "files": 61,
+      "bytes": 940516,
+      "local_path": "examples/riba2534__claude-opus-5-5-demo",
+      "source_url": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "stars_source_url": "https://api.github.com/repos/riba2534/claude-opus-5-5-demo",
+      "type": "Three.js网页游戏合集",
+      "summary": "鹈鹕骑自行车、穿越火线运输船、QQ飞车三个网页游戏。",
+      "model_evidence": {
+        "url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/54adc1fb64155f9dd7c1c90ecae7b8185ac540b8/README.md",
+        "summary": "README明确三个游戏由Claude Opus 5.5在Claude Code中分别以一句话提示生成，源码和README保留模型输出原样。",
+        "local_path": "examples/riba2534__claude-opus-5-5-demo/README.md"
+      },
+      "license": {
+        "spdx_id": null,
+        "summary": "无根目录LICENSE；pelican-bike/package.json与qq-speed/package.json声明ISC；cf-transport-ship/package.json未声明许可。保留原始声明，不补写全仓统一许可证。",
+        "files": [
+          "pelican-bike/package.json",
+          "qq-speed/package.json",
+          "cf-transport-ship/package.json",
+          "README.md"
+        ],
+        "url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/54adc1fb64155f9dd7c1c90ecae7b8185ac540b8/pelican-bike/package.json"
+      },
+      "entrypoints": [
+        "pelican-bike/index.template.html",
+        "cf-transport-ship/src/index.html",
+        "qq-speed/src/index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": "pelican-bike",
+          "commands": [
+            "npm install",
+            "node build.mjs"
+          ],
+          "output": "dist/index.html"
+        },
+        {
+          "cwd": "cf-transport-ship",
+          "commands": [
+            "npm install",
+            "node build.mjs"
+          ],
+          "output": "dist/index.html"
+        },
+        {
+          "cwd": "qq-speed",
+          "commands": [
+            "npm install",
+            "node build.mjs"
+          ],
+          "output": "dist/index.html"
+        }
+      ],
+      "demo_url": "https://claude-opus-5-5.riba2534.cn/",
+      "readme_url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/54adc1fb64155f9dd7c1c90ecae7b8185ac540b8/README.md"
+    },
+    {
+      "repo": "Noniv/web-ocean",
+      "stars": 1015,
+      "branch": "main",
+      "commit": "a07c7fd522ef0a897601c114f927a49d93d95520",
+      "tree": "974a90ca3d37ecfabbb481b631707ede56da3042",
+      "files": 19,
+      "bytes": 939609,
+      "local_path": "examples/Noniv__web-ocean",
+      "source_url": "https://github.com/Noniv/web-ocean",
+      "stars_source_url": "https://api.github.com/repos/Noniv/web-ocean",
+      "type": "WebGPU海面可视化",
+      "summary": "FFT波浪、白沫、夕阳天空与漂浮相机，单HTML可打开。",
+      "model_evidence": {
+        "url": "https://github.com/Noniv/web-ocean/blob/a07c7fd522ef0a897601c114f927a49d93d95520/README.md",
+        "summary": "README的How it was made章节明确作者使用Claude Code（Opus 5.5）构建这一海洋渲染器。",
+        "local_path": "examples/Noniv__web-ocean/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "保留MIT许可证及Maksymilian Dendura的版权声明。",
+        "files": [
+          "LICENSE"
+        ],
+        "url": "https://github.com/Noniv/web-ocean/blob/a07c7fd522ef0a897601c114f927a49d93d95520/LICENSE"
+      },
+      "entrypoints": [
+        "ocean.html",
+        "ocean.min.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "npm start"
+          ],
+          "open": "http://localhost:8080/"
+        }
+      ],
+      "demo_url": "https://ocean-noniv.vercel.app/",
+      "readme_url": "https://github.com/Noniv/web-ocean/blob/a07c7fd522ef0a897601c114f927a49d93d95520/README.md"
+    },
+    {
+      "repo": "adunext/adu-motion-video",
+      "stars": 796,
+      "branch": "main",
+      "commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "tree": "bffe77ff780f3c86d6b1eee7f0a0d57b9331513a",
+      "files": 1042,
+      "bytes": 53900786,
+      "local_path": "examples/adunext__adu-motion-video",
+      "source_url": "https://github.com/adunext/adu-motion-video",
+      "stars_source_url": "https://api.github.com/repos/adunext/adu-motion-video",
+      "type": "DOM/Canvas动效案例",
+      "summary": "图文讲解、纸面透视、深色3D、角色叙事等动效模板。",
+      "model_evidence": {
+        "url": "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/README.md",
+        "summary": "README写明模板由阿杜与Opus 5.5制作；仓库保留可运行HTML历史模板及手绘动画案例。",
+        "local_path": "examples/adunext__adu-motion-video/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "工具代码与文档采用MIT；THIRD_PARTY.md及字体目录保留Apache-2.0、MIT、OFL等声明。人物演示为授权观看的导出内容，原始口播素材不属于通用可复用素材。",
+        "files": [
+          "LICENSE",
+          "THIRD_PARTY.md"
+        ],
+        "url": "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/LICENSE"
+      },
+      "entrypoints": [
+        "examples/handdrawn-continuity.html",
+        "examples/gallery/index.html",
+        "examples/silent-demo.html",
+        "template/index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "python3 -m http.server 8000"
+          ],
+          "open": "http://localhost:8000/examples/handdrawn-continuity.html"
+        }
+      ],
+      "demo_url": "https://adunext.github.io/adu-motion-video/examples/gallery/",
+      "readme_url": "https://github.com/adunext/adu-motion-video/blob/4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf/README.md",
+      "notes": "当前上游的新模板在MotionGit分发，本副本保留归档提交内的历史模板与源码。"
+    },
+    {
+      "repo": "Leonxlnx/athenaion",
+      "stars": 696,
+      "branch": "main",
+      "commit": "9b8bd23b39c458a50fb1201037360047781c45b5",
+      "tree": "7786b3cd6147fa7a60fb79d510d698ca1c69d860",
+      "files": 220,
+      "bytes": 69002072,
+      "local_path": "examples/Leonxlnx__athenaion",
+      "source_url": "https://github.com/Leonxlnx/athenaion",
+      "stars_source_url": "https://api.github.com/repos/Leonxlnx/athenaion",
+      "type": "Three.js古希腊世界",
+      "summary": "程序化神庙、城市、植被、水体、山脉和离线渲染器。",
+      "model_evidence": {
+        "url": "https://github.com/Leonxlnx/athenaion/blob/9b8bd23b39c458a50fb1201037360047781c45b5/README.md",
+        "summary": "README开头与Credits明确由Claude Code（Claude Opus 5.5）制作整个Three.js世界，并记录9轮多智能体迭代。",
+        "local_path": "examples/Leonxlnx__athenaion/README.md"
+      },
+      "license": {
+        "spdx_id": "MIT",
+        "summary": "代码采用MIT。README提到的展示音乐采用CC BY 4.0，音乐文件不在该源码仓库中。",
+        "files": [
+          "LICENSE",
+          "README.md"
+        ],
+        "url": "https://github.com/Leonxlnx/athenaion/blob/9b8bd23b39c458a50fb1201037360047781c45b5/LICENSE"
+      },
+      "entrypoints": [
+        "index.html"
+      ],
+      "run_commands": [
+        {
+          "cwd": ".",
+          "commands": [
+            "npm install",
+            "node tools/serve.mjs"
+          ],
+          "open": "http://localhost:8080/?shot=1&quality=preview"
+        }
+      ],
+      "demo_url": null,
+      "readme_url": "https://github.com/Leonxlnx/athenaion/blob/9b8bd23b39c458a50fb1201037360047781c45b5/README.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+name: Import verified Opus 5.5 examples once
+
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/import-opus55-once.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-opus55-examples-once
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.repository == 'songjiaqi4051/ClaudeOpus5.5_Example'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GIT_TERMINAL_PROMPT: '0'
+      GIT_LFS_SKIP_SMUDGE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Check out the collection
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+      - name: Import pinned snapshots and verify all Git trees
+        run: python3 scripts/import_opus55_once.py --publish
