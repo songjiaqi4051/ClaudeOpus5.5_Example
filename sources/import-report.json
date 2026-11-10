@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-10T10:07:53.863147+00:00",
+  "target_repository": "songjiaqi4051/ClaudeOpus5.5_Example",
+  "base_commit": "f9d71086acd5b4772605f3176f9bd842ab37a9a2",
+  "verification": "Every imported subtree has the exact upstream Git tree SHA.",
+  "repository_count": 11,
+  "total_files": 5130,
+  "total_bytes": 934000174,
+  "repositories": [
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "9eb7739a0fca4c6990fe966cb8b87b1930f7193a",
+      "tree": "af0dd6bd7814c6c84e64cfc15b0be193cc4b12cd",
+      "files": 2521,
+      "bytes": 107950312,
+      "local_path": "examples/lemomo-ai__lemo-opuscar",
+      "imported_tree": "af0dd6bd7814c6c84e64cfc15b0be193cc4b12cd",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "mexicat/pdoom-video",
+      "commit": "fa164b74fd0b26a99375715b619c55b4a0fb3d05",
+      "tree": "1c2ed7634a5a6406b8595a08e3328b05a96fa202",
+      "files": 154,
+      "bytes": 22384866,
+      "local_path": "examples/mexicat__pdoom-video",
+      "imported_tree": "1c2ed7634a5a6406b8595a08e3328b05a96fa202",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "commit": "269f6ed788cf60aaf9c276b110c548d6e7d353e1",
+      "tree": "89ea9652228a324b70f1e818576c67b676729477",
+      "files": 386,
+      "bytes": 599838914,
+      "local_path": "examples/Vincentwei1021__mg-styles-15",
+      "imported_tree": "89ea9652228a324b70f1e818576c67b676729477",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "JohnHeibel/PDoomVideo",
+      "commit": "fa546a38092e75f2b079e6a86d6abc54dd525d17",
+      "tree": "275cc7ac1e3fb36c6f9603c44b484cc8ce6a9457",
+      "files": 26,
+      "bytes": 4161352,
+      "local_path": "examples/JohnHeibel__PDoomVideo",
+      "imported_tree": "275cc7ac1e3fb36c6f9603c44b484cc8ce6a9457",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "JohnHeibel/ClaudeAnimationBase",
+      "commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2",
+      "tree": "a57999f788c4bf6487d5b81ce75a7f369a409ea1",
+      "files": 18,
+      "bytes": 7893469,
+      "local_path": "examples/JohnHeibel__ClaudeAnimationBase",
+      "imported_tree": "a57999f788c4bf6487d5b81ce75a7f369a409ea1",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "feichao93/battle-city",
+      "commit": "86c41c8c3c49cd27255bcf63167091d1061801fa",
+      "tree": "cd65483b2320e91abfb243061b5f040f59858062",
+      "files": 253,
+      "bytes": 8166400,
+      "local_path": "examples/feichao93__battle-city",
+      "imported_tree": "cd65483b2320e91abfb243061b5f040f59858062",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "dgreenheck/tidewater",
+      "commit": "4811ba48d795197de5621985f404e765c0b7c0ef",
+      "tree": "dd8c2b8b21bed8b5a4907c0864b101d3814ec35b",
+      "files": 430,
+      "bytes": 58821878,
+      "local_path": "examples/dgreenheck__tidewater",
+      "imported_tree": "dd8c2b8b21bed8b5a4907c0864b101d3814ec35b",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "riba2534/claude-opus-5-5-demo",
+      "commit": "54adc1fb64155f9dd7c1c90ecae7b8185ac540b8",
+      "tree": "8f6b8696ecfe6dbb066f1765cb77fca73b7a41a0",
+      "files": 61,
+      "bytes": 940516,
+      "local_path": "examples/riba2534__claude-opus-5-5-demo",
+      "imported_tree": "8f6b8696ecfe6dbb066f1765cb77fca73b7a41a0",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "Noniv/web-ocean",
+      "commit": "a07c7fd522ef0a897601c114f927a49d93d95520",
+      "tree": "974a90ca3d37ecfabbb481b631707ede56da3042",
+      "files": 19,
+      "bytes": 939609,
+      "local_path": "examples/Noniv__web-ocean",
+      "imported_tree": "974a90ca3d37ecfabbb481b631707ede56da3042",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "adunext/adu-motion-video",
+      "commit": "4a52ae2cff542cfb0bfcf6e93e5120c55d0110cf",
+      "tree": "bffe77ff780f3c86d6b1eee7f0a0d57b9331513a",
+      "files": 1042,
+      "bytes": 53900786,
+      "local_path": "examples/adunext__adu-motion-video",
+      "imported_tree": "bffe77ff780f3c86d6b1eee7f0a0d57b9331513a",
+      "tree_matches_upstream": true
+    },
+    {
+      "repo": "Leonxlnx/athenaion",
+      "commit": "9b8bd23b39c458a50fb1201037360047781c45b5",
+      "tree": "7786b3cd6147fa7a60fb79d510d698ca1c69d860",
+      "files": 220,
+      "bytes": 69002072,
+      "local_path": "examples/Leonxlnx__athenaion",
+      "imported_tree": "7786b3cd6147fa7a60fb79d510d698ca1c69d860",
+      "tree_matches_upstream": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+build/
+dist/
+.idea/
+npm-debug.log*
+node_modules/
+.vscode
+.DS_Store
+staging/
+www/
+.mcp.json
